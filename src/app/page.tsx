@@ -263,6 +263,75 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ── Services Section ── */}
+      <section className={styles.servicesSection}>
+        <div className={styles.servicesContainer}>
+          <p className={styles.servicesEyebrow}>what we do</p>
+          <h2 className={styles.servicesTitle}>
+            Whatever your goal,<br />
+            we&apos;ve got the right solution.
+          </h2>
+          <div className={styles.servicesGrid}>
+            {/* Card 1 */}
+            <div className={styles.serviceCard}>
+              <div className={styles.serviceIcon}>
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                </svg>
+              </div>
+              <h3 className={styles.serviceCardTitle}>Software Development</h3>
+              <p className={styles.serviceCardDesc}>
+                We build custom software tailored to your business. We handle
+                everything from early-stage ideas and proof of concepts to
+                fully launched products, end-to-end.
+              </p>
+            </div>
+            {/* Card 2 */}
+            <div className={styles.serviceCard}>
+              <div className={styles.serviceIcon}>
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <h3 className={styles.serviceCardTitle}>System Integration</h3>
+              <p className={styles.serviceCardDesc}>
+                Connect your tools, platforms, and third-party services so
+                everything talks to each other, giving you real-time data,
+                automated workflows, and zero friction.
+              </p>
+            </div>
+            {/* Card 3 */}
+            <div className={styles.serviceCard}>
+              <div className={styles.serviceIcon}>
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+                </svg>
+              </div>
+              <h3 className={styles.serviceCardTitle}>Cloud Services</h3>
+              <p className={styles.serviceCardDesc}>
+                Scale with confidence using AWS, Azure, or Google Cloud. We
+                handle migration, configuration, and ongoing optimisation so
+                your infrastructure stays fast and secure.
+              </p>
+            </div>
+            {/* Card 4 */}
+            <div className={styles.serviceCard}>
+              <div className={styles.serviceIcon}>
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                </svg>
+              </div>
+              <h3 className={styles.serviceCardTitle}>Fix or Revamp Your Website</h3>
+              <p className={styles.serviceCardDesc}>
+                Got an outdated or broken site? We dig in, clean it up, and
+                bring it up to modern standards for better speed, better design,
+                and better results. No rebuild required.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ── CTA Section ── */}
       <section className={styles.ctaSection}>
         <div className={styles.ctaContainer}>
