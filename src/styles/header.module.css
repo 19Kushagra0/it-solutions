@@ -42,6 +42,16 @@
   font-weight: 700;
   letter-spacing: -0.025em;
 }
+@media screen and (max-width: 1023px) {
+  .logo {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 639px) {
+  .logo {
+    font-size: 17px;
+  }
+}
 
 .nav {
   display: flex;
@@ -85,4 +95,27 @@
 
 .ctaButton:hover {
   background-color: #1f1f1f;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0.5rem;
+}
+
+.hamburger svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  stroke: #0a0a0a;
+}
+
+@media screen and (max-width: 767px) {
+  .ctaButton {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
 }
