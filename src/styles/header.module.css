@@ -119,3 +119,139 @@
     display: block;
   }
 }
+
+/* ── Overlay ── */
+.overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 99;
+  transition: background-color 0.3s ease;
+}
+
+.overlayVisible {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* ── Sidebar Drawer ── */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  max-width: 360px;
+  height: 100dvh;
+  background-color: #ffffff;
+  z-index: 100;
+  transform: translateX(100%);
+  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  flex-direction: column;
+  box-shadow: -4px 0 24px rgba(0, 0, 0, 0.08);
+}
+
+.sidebarOpen {
+  transform: translateX(0);
+}
+
+/* Sidebar Header */
+.sidebarHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid #e5e7eb;
+   background-color: #f3f4f6;
+
+}
+
+.sidebarLogo {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: #0a0a0a;
+}
+
+.closeBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.25rem;
+  color: #0a0a0a;
+}
+
+.closeBtn svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+/* Sidebar Nav */
+.sidebarNav {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.sidebarLink {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #0a0a0a;
+  border-bottom: 1px solid #e5e7eb;
+  transition: background-color 0.15s ease, padding-left 0.15s ease;
+  background-color: #ffffff;
+}
+
+.sidebarLink:hover {
+  background-color: #f0eeeb;
+  padding-left: 1.75rem;
+}
+
+.sidebarLink svg {
+  width: 1rem;
+  height: 1rem;
+  color: #9ca3af;
+  flex-shrink: 0;
+}
+
+/* Sidebar Footer CTA */
+.sidebarFooter {
+  padding: 1.5rem;
+  border-top: 1px solid #e5e7eb;
+  background-color: #f3f4f6;
+
+}
+
+.sidebarCta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 1rem;
+  background-color: #0a0a0a;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  transition: background-color 0.15s ease;
+}
+
+.sidebarCta:hover {
+  background-color: #1f1f1f;
+}
+
+.sidebarCta svg {
+  width: 1.1rem;
+  height: 1.1rem;
+}
+
