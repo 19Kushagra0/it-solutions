@@ -157,6 +157,76 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ── Process Section ── */}
+      <section className={styles.processSection}>
+        <div className={styles.processContainer}>
+          <p className={styles.processEyebrow}>Our Process</p>
+          <h2 className={styles.processTitle}>
+            More than just a website, we build a<br />
+            strategy that works hard<br />
+            for your business.
+          </h2>
+
+          <div className={styles.processSteps}>
+            {/* Step 1 */}
+            <div className={styles.processStep}>
+              <div className={styles.processIcon}>
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                </svg>
+              </div>
+              <div className={styles.processConnector}></div>
+              <h3 className={styles.processStepTitle}>Discovery Call</h3>
+              <p className={styles.processStepDesc}>
+                We start by listening. We take time to truly understand your business, your audience, and your goals then identify the right approach to get you results.
+              </p>
+            </div>
+
+            {/* Step 2 */}
+            <div className={styles.processStep}>
+              <div className={styles.processIcon}>
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                </svg>
+              </div>
+              <div className={styles.processConnector}></div>
+              <h3 className={styles.processStepTitle}>Strategy & Design</h3>
+              <p className={styles.processStepDesc}>
+                We craft a prototype tailored to your brand. After you review and approve the prototype, we move to the next step.
+              </p>
+            </div>
+
+            {/* Step 3 */}
+            <div className={styles.processStep}>
+              <div className={styles.processIcon}>
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                </svg>
+              </div>
+              <div className={styles.processConnector}></div>
+              <h3 className={styles.processStepTitle}>Build & Refine</h3>
+              <p className={styles.processStepDesc}>
+                We build your site with regular updates along the way. You can give feedback at each stage to make sure the final result perfectly matches your vision.
+              </p>
+            </div>
+
+            {/* Step 4 */}
+            <div className={styles.processStep}>
+              <div className={styles.processIcon}>
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <div className={styles.processConnectorHidden}></div>
+              <h3 className={styles.processStepTitle}>Launch & Grow</h3>
+              <p className={styles.processStepDesc}>
+                Every detail is reviewed together before going live. We launch at a time that suits you and make sure everything works exactly as intended from day one.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ── Features Section ── */}
       <section className={styles.featuresSection}>
         <div className={styles.featuresContainer}>

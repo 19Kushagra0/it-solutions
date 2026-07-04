@@ -353,6 +353,144 @@
   }
 }
 
+/* ── Process Section ── */
+.processSection {
+  background-color: #0d0d1a;
+  padding: 6rem 4rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.processContainer {
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.processEyebrow {
+  color: #2dd4bf;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+}
+
+.processTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+  color: #ffffff;
+  margin-bottom: 4rem;
+  max-width: 42rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .processTitle {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .processSection {
+    padding: 4rem 1.5rem;
+  }
+  .processTitle {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.processSteps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .processSteps {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .processSteps {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+
+.processStep {
+  padding-right: 2rem;
+  position: relative;
+}
+
+@media screen and (max-width: 639px) {
+  .processStep {
+    padding-right: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.processIcon {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #2dd4bf;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+  flex-shrink: 0;
+}
+
+.processIcon svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  stroke: #0d0d1a;
+}
+
+.processConnector {
+  position: absolute;
+  top: 1.25rem;
+  left: 2.5rem;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(to right, #2dd4bf 0%, #334155 100%);
+}
+
+.processConnectorHidden {
+  display: none;
+}
+
+@media screen and (max-width: 1023px) {
+  .processConnector,
+  .processConnectorHidden {
+    display: none;
+  }
+}
+
+.processStepTitle {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.75rem;
+  letter-spacing: 0;
+}
+
+.processStepDesc {
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: #94a3b8;
+}
+
 /* ── Features Section ── */
 .featuresSection {
   background-color: #ffffff;
