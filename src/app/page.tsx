@@ -133,15 +133,16 @@ export default function Home() {
       <section className={styles.infoSection}>
         <div className={styles.infoContainer}>
           <div className={styles.infoLeft}>
+            <p className={styles.infoEyebrow}>OUR PROMISE</p>
             <h2 className={styles.infoTitle}>
-              Not another
+              not another
               <br />
               generic website.
             </h2>
             <p className={styles.infoSubtitle}>
-              Designed for your business.
+              But one designed for your business
               <br />
-              Built for your customers.
+              and built for your customers.
             </p>
           </div>
           <div className={styles.infoRight}>
@@ -230,6 +231,7 @@ export default function Home() {
       {/* ── Features Section ── */}
       <section className={styles.featuresSection}>
         <div className={styles.featuresContainer}>
+          <p className={styles.featuresEyebrow}>we make sure it</p>
           <div className={styles.featuresDivider}></div>
           <div className={styles.featuresGrid}>
             {/* Feature 1 */}

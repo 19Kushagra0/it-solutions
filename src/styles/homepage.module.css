@@ -301,6 +301,15 @@
   }
 }
 
+.infoEyebrow {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #9ca3af;
+  margin-bottom: 0.75rem;
+}
+
 .infoTitle {
   font-size: 3rem;
   line-height: 1.25;
@@ -511,6 +520,15 @@
   max-width: 80rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+.featuresEyebrow {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #9ca3af;
+  margin-bottom: 1.5rem;
 }
 
 .featuresDivider {
