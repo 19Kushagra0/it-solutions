@@ -1,0 +1,121 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+  padding: 1.5rem 4rem;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 300ms;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.headerDefault {
+  background-color: #F7F5F2;
+  border-color: transparent;
+}
+
+.headerWhite {
+  background-color: #ffffff;
+  border-color: #f3f4f6;
+}
+
+.container {
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+@media screen and (max-width: 1023px) {
+  .logo {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 639px) {
+  .logo {
+    font-size: 17px;
+  }
+}
+
+.nav {
+  display: flex;
+  gap: 2.5rem;
+}
+
+@media screen and (max-width: 767px) {
+  .nav {
+    display: none;
+  }
+}
+
+.navLink {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 150ms;
+}
+
+.navLink:hover {
+  color: #4b5563;
+}
+
+.ctaButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid transparent;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  color: #ffffff;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 150ms;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  background-color: #0a0a0a;
+}
+
+.ctaButton:hover {
+  background-color: #1f1f1f;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0.5rem;
+}
+
+.hamburger svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  stroke: #0a0a0a;
+}
+
+@media screen and (max-width: 767px) {
+  .ctaButton {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+}
