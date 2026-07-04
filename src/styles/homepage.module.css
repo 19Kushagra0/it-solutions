@@ -48,6 +48,9 @@
 }
 
 @media screen and (max-width: 1270px) {
+  .heroContent {
+    order: 2;
+  }
   .heroContent,
   .heroDescription {
     text-align: center;
@@ -131,6 +134,7 @@
 @media screen and (max-width: 1270px) {
   .heroMockupContainer {
     margin-right: auto;
+    order: 1;
   }
 }
 
@@ -717,6 +721,13 @@
   padding: 2.5rem;
 }
 
+.serviceCardHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
 .serviceIcon {
   width: 2.75rem;
   height: 2.75rem;
@@ -725,7 +736,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 1.25rem;
   flex-shrink: 0;
 }
 
@@ -739,7 +749,7 @@
   font-size: 1.125rem;
   font-weight: 700;
   color: #0a0a1a;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0;
   letter-spacing: -0.01em;
 }
 
