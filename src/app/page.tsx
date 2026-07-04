@@ -267,9 +267,9 @@ export default function Home() {
       <section className={styles.ctaSection}>
         <div className={styles.ctaContainer}>
           <h2 className={styles.ctaTitle}>
-            Built for the business.
+            Built for Your Business.
             <br />
-            Available today.
+            Available Today.
           </h2>
           <a
             className={styles.ctaButtonLight}
