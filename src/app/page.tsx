@@ -135,7 +135,7 @@ export default function Home() {
           <div className={styles.infoLeft}>
             <p className={styles.infoEyebrow}>OUR PROMISE</p>
             <h2 className={styles.infoTitle}>
-              Not another
+              not another
               <br />
               generic website.
             </h2>
